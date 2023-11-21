@@ -1,0 +1,6 @@
+started from backend
+initiated package.json
+installed express
+app.listen()
+app.get()
+env to store sesitive info(install, move 4000 to that, import in sever.js)
