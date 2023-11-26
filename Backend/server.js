@@ -9,10 +9,7 @@ const workoutRouter = require("./routes/workouts");
 const app = express();
 
 // midddleware
-app.use(express.json()) // Add middleware to parse JSON requests
-
-
-
+app.use(express.json()); // Add middleware to parse JSON requests
 
 // connect to mongoDB
 mongoose
